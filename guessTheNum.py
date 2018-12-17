@@ -1,7 +1,7 @@
 #Guess the random number
 
 import random
-print("HELLO WORLD")
+print("Hello! Let's play!")
 guesses = 6
 number = random.randint(1, 100)
 win = False
@@ -20,4 +20,4 @@ while guesses > 0:
     guesses -= 1
 
 if win == False:
-    print("Sucks to suck, the number was", number)
+    print("I'm sorry the number was", number)
